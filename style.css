@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+  font-family: 'Titillium Web', sans-serif;
+  color: #343d42;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+/*============= WEBSITE SECTION =============*/
+/* <!--- Start Navigation --> */
+
+.navbar{
+  background-color: #36414c !important;
+  box-shadow: inset 0 -1px 0 0 #cfd8dd;
+}
+
+.navbar-brand img{
+  width: 7.063rem;
+  height: 2.75rem;
+}
+
+.navbar-nav li{
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: #ffffff;
+  font-style: normal;
+  line-height: 1.67;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #4a90e2;
+}
+/* <!--- End Navigation --> */
+
+/* <!--- Start Landing Page Section --> */
+
+.masthead{
+  background-color: rgba(91, 157, 227, 0.08);
+}
+
+.main-head{
+  padding: 60px 0 60px 0px;
+  margin-top: 67px;
+}
+
+
+/* <!--- End Landing Page Section --> */
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/* media (min-width: 768px) {
+  .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+      text-align: center;
+  }
+} */
