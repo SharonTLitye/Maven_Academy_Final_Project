@@ -5,7 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Maven Academy</title>
 	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css\style.css">
+	<link rel="stylesheet" href="css\owl.carousel.css">
+	<link rel="stylesheet" href="css\owl.theme.default.css">
+
 	<link rel="stylesheet" href="css/fixed.css">
 </head>
 
@@ -87,7 +90,7 @@
 				<a href="https://themavenacademy.one/why-us/" target="_blank">
 					<button type="button" id=read-more-btn class="btn btn-outline-primary text-center">Read More</button>
 				  </a>
-			</div>
+			</div> <!--- Left Side Content -->
 			<div id="main-content-2" class="col-md-6">
 				<div class="row">
 					<div class="col-md-12">
@@ -122,10 +125,10 @@
 									Internship Programme
 								</h5> Don’t struggle with the job hunt! Hit the ground sprinting with our exclusive platform that allows you to Work, Learn, and Earn at the same time.
 							</div>
-						</div>
-					</div>
+						</div> 
+					</div> 
 				</div>
-			</div>
+			</div> <!--- Right Side Content -->
 		</div>
 	</div>
 
@@ -135,15 +138,128 @@
 <!--- Start Courses Section -->
 <div id="courses" class="offset">
 
-<!--- Start Jumbotron -->
-<div class="jumbotron">
-	
-
-</div> <!--- End Jumbotron -->
-
-
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h3 class="text-center">
+					Our Courses
+				</h3>
+				<p id="cards-par"class="text-center">
+					Immersive training programs aimed at accelerating your career in tech, regardless of your experience level. We meet you where you’re at, and support you far beyond your goals!
+				</p>
+				<div id="cards-row" class="row">
+					<div class="col-md-4">
+						<div class="card">
+							<h5 class="card-header text-center">
+								Become a Full Stack Web Developer
+								<br>
+								<h6 class="text-center">12 Week Course - In classroom</h6>
+							</h5>
+							<div class="card-body text-center">
+								<img src="assests\images\webdeveloper.png" alt="Web Developer">
+								<p class="course-price"> R26,000,00 Excl Vat
+									<br>
+								</p>
+								<a class="courses-link text-center" href="#"> View course detail </a>
+							</div>
+							<div class="card-footer text-center">
+								<a href="#">
+									<button type="button" id=add-to-enquiry-btn class="btn btn-outline-primary text-center">Add to enquiry</button>
+								  </a>
+							</div>
+						</div>
+					</div> <!--- Left Card -->
+					<div class="col-md-4">
+						<div class="card">
+							<h5 class="card-header text-center">
+								Become a Front End Web Developer 
+								<br>
+								<h6 class="text-center">4 Week Course - In classroom</h6> 
+							</h5>
+							<div class="card-body text-center">
+								<img src="assests\images\frontend-dev.png" alt="Front End Developer">
+								<p class="course-price"> R26,000,00 Excl Vat
+									<br>
+								</p>
+								<a class="courses-link text-center" href="#"> View course detail </a>
+							</div>
+							<div class="card-footer text-center">
+								<a href="#">
+									<button type="button" id=add-to-enquiry-btn class="btn btn-outline-primary text-center">Add to enquiry</button>
+								  </a>
+							</div>
+						</div>
+					</div> <!--- Center Card -->
+					<div class="col-md-4">
+						<div class="card">
+							<h5 class="card-header text-center">
+								Become a Java Spring Boot Developer
+							</5>
+								<br>
+								<h6 class="text-center">12 Week Course - In classroom</h6>
+							
+							<div class="card-body text-center">
+								<img src="assests\images\spring-boot-dev.png" alt="Spring Boot Developer">
+								<p class="course-price"> R26,000,00 Excl Vat
+									<br>
+								</p>
+								<a class="courses-link text-center" href="#"> View course detail </a>
+							</div>
+							<div class="card-footer text-center">
+								<a href="#">
+									<button type="button" id=add-to-enquiry-btn class="btn btn-outline-primary text-center">Add to enquiry</button>
+								  </a>
+							</div>
+						</div>
+					</div> <!--- Right Card -->
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <!--- End Courses Section -->
+
+<!--- Start Partners Section -->
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron">
+				<h2>
+					Career Services
+				</h2>
+				<p>
+					The Maven Academy is committed to helping you secure a new job after finishing your bootcamp. With your hard-work and our help, we’re confident that you can get hired by a fantastic company.
+				</p>
+				<!--- Start Carousel Section -->
+				<div class="wrapper">
+					<div class="client-carousel section-padding owl-carousel">
+						<div class="img-area">
+							<img src="assests\images\companies-logo\logo-zando.png" alt="Zando Logo">
+						</div>
+						<div class="img-area">
+							<img src="assests\images\companies-logo\logo-nedbank.png" alt="Nedbank Logo">
+						</div>
+						<div class="img-area">
+							<img src="assests\images\companies-logo\logo-vuma.png" alt="Vuma Logo">
+						</div>
+						<div class="img-area">
+							<img src="assests\images\companies-logo\logo-flash.png" alt="Flash Logo">
+						</div>
+					</div>
+				</div>
+
+				<!--- End Carousel Section -->
+				
+				</div>    <!--- End Partners Section -->
+				<div>
+					<a class="btn btn-primary btn-large" href="#">Learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--- End Partners Section -->
 
 <!--- Start Contact Us Section -->
 <div id="contact-us" class="offset">
@@ -160,6 +276,8 @@
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<script src="js\owl.carousel.min.js"></script>
+<script src="js\scripts.js"></script>
 <!--- End of Script Source Files -->
 
 </body>

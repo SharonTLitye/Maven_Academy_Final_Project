@@ -112,6 +112,11 @@ h1.font-light-blue{
 
 /* <!--- Start Why Maven Section --> */
 
+div#why-us.offset{
+  padding: 80px 0 80px 0;
+  
+}
+
 /* ******Left Side Content******* */
 #main-content.col-md-6{
   margin-top: 90px;
@@ -205,6 +210,133 @@ h1.font-light-blue{
 }
 /* <!--- End Why Maven Section --> */
 
+/* <!--- Start Courses Section --> */
+
+h3{
+  font-size: 2.25rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #343d42;
+}
+
+#cards-par.text-center{
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #4f5559;
+}
+
+#courses {
+    background-color: rgba(91, 157, 227, 0.08); 
+}
+
+/* ******Cards******* */
+
+#cards-row{
+  background-color: transparent;
+}
+
+.card{
+  width: 23.25rem;
+  height: 30.563rem;
+  box-shadow: 0 5px 20px 0 rgba(25, 71, 128, 0.2);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.card-header{
+  background-color: #ffffff;
+  border: none;
+}
+
+h5{
+  font-size: 0.938rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #459de9;
+}
+
+h6{
+  font-size: 0.938rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+p.course-price{
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.9;
+  letter-spacing: normal;
+  color: #3a9aef;
+}
+
+a.courses-link{
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+a.courses-link:hover,
+a.courses-link:active{
+  color:#459de9
+}
+
+.card-footer{
+  border: none;
+  background-color: #ffffff;
+}
+
+#add-to-enquiry-btn{
+  border-radius: 22.5px;
+  border: solid 2px #60a0e3;
+  width: 17.813rem;
+  height: 2.5rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d96ee
+}
+
+#add-to-enquiry-btn:hover,
+#add-to-enquiry-btn:active{
+  color: #ffffff
+}
+
+/* <!--- End Courses Section --> */
+
+/* <!--- Start Partners Section --> */
+
+/* <!--- Start Carousel Section --> */
+
+/* <!--- End Carousel Section --> */
+
+/* <!---End Partners Section --> */
 
 /*============ BOOTSTRAP BREAK POINTS:
 
