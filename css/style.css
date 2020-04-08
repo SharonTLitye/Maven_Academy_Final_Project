@@ -234,6 +234,7 @@ h3{
 
 #courses {
     background-color: rgba(91, 157, 227, 0.08); 
+    padding: 80px 0 80px 0;
 }
 
 /* ******Cards******* */
@@ -336,6 +337,9 @@ a.courses-link:active{
 /* <!--- End Courses Section --> */
 
 /* <!--- Start Partners Section --> */
+#partners.container-fluid{
+  padding: 80px 0 80px 0;
+}
 .client-carousel-head{
   font-size: 3.125rem;
   font-weight: 600;
