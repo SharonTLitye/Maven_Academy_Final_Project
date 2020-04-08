@@ -249,6 +249,11 @@ h3{
   background-color: #ffffff;
   border: none;
   border-radius: 5px 5px 5px 5px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translate(0, -10px);
 }
 
 .card-header{
@@ -331,12 +336,66 @@ a.courses-link:active{
 /* <!--- End Courses Section --> */
 
 /* <!--- Start Partners Section --> */
+.client-carousel-head{
+  font-size: 3.125rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #343d42;
+}
+
+.client-carousel-par{
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #707277
+}
 
 /* <!--- Start Carousel Section --> */
+.wrapper{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.client-carousel-img{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: .4;
+}
+
+.client-carousel-img:hover{
+  filter: grayscale(0);
+  opacity:1;
+}
 
 /* <!--- End Carousel Section --> */
+#find-out-more-btn{
+box-shadow: none;
+font-size: 0.75rem;
+font-weight: normal;
+font-stretch: normal;  
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: center;
+}
+
+#find-out-more-btn:hover,
+#find-out-more-btn:active{
+  color: #ffffff
+}
 
 /* <!---End Partners Section --> */
+
+/* <!--- Start Testimonials Section --> */
+
+/* <!--- End Testimonials Section --> */
 
 /*============ BOOTSTRAP BREAK POINTS:
 
