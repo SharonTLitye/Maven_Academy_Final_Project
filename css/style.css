@@ -1,33 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 
-*{
-  font-family: 'Titillium Web', sans-serif;
+* {
+  font-family: "Titillium Web", sans-serif;
   color: #343d42;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
-
 
 /*============= WEBSITE SECTION =============*/
 /* <!--- Start Navigation --> */
 
-.navbar{
+.navbar {
   background-color: #36414c !important;
   box-shadow: inset 0 -1px 0 0 #cfd8dd;
 }
 
-.navbar-brand img{
+.navbar-brand img {
   width: 7.063rem;
   height: 2.75rem;
 }
 
-.navbar-nav li{
-  padding-right: .7rem;
+.navbar-nav li {
+  padding-right: 0.7rem;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   text-transform: uppercase;
   font-size: 0.75rem;
   font-weight: 600;
@@ -35,27 +34,28 @@ body{
   color: #ffffff;
   font-style: normal;
   line-height: 1.67;
-  padding-top: .8rem;
+  padding-top: 0.8rem;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover {
   color: #4a90e2;
 }
 /* <!--- End Navigation --> */
 
 /* <!--- Start Landing Page Section --> */
 
-.masthead{
-  background-color: rgba(91, 157, 227, 0.08);
+.masthead {
+  min-height: calc(100vh - 70px);
+  background-color: rgba(91, 157, 227, 0.08); !important
 }
 
-.main-head{
+.main-head {
   padding: 60px 0 60px 0px;
-  margin-top: 67px;
+  /* margin-top: 67px; */
 }
 
-#caption h1{
+#caption h1 {
   width: 100%;
   max-width: 100%;
   font-size: 3.5rem;
@@ -66,11 +66,11 @@ body{
   letter-spacing: normal;
 }
 
-h1.font-light-blue{
-  color:#4a90e2;
+h1.font-light-blue {
+  color: #4a90e2;
 }
 
-#tagline p{
+#tagline p {
   font-size: 1.125rem;
   font-weight: 600;
   font-stretch: normal;
@@ -79,7 +79,7 @@ h1.font-light-blue{
   letter-spacing: normal;
 }
 
-#head-btn.btn{
+#head-btn.btn {
   width: 21.875rem;
   height: 3.75rem;
   font-size: 1.125rem;
@@ -95,7 +95,7 @@ h1.font-light-blue{
 }
 
 #head-btn.btn:hover,
-#head-btn.btn:active{
+#head-btn.btn:active {
   color: #5b9de3;
   background-color: #ffffff;
   border: 2px solid #5b9de3;
@@ -104,25 +104,26 @@ h1.font-light-blue{
   outline-color: initial;
   outline-style: none;
   outline-width: initial;
-  
+}
+
+.h-100 {
+  margin-top: 40px;
 }
 
 /* <!--- End Landing Page Section --> */
 
-
 /* <!--- Start Why Maven Section --> */
 
-div#why-us.offset{
+div#why-us.offset {
   padding: 80px 0 80px 0;
-  
 }
 
 /* ******Left Side Content******* */
-#main-content.col-md-6{
+#main-content.col-md-6 {
   margin-top: 90px;
 }
 
-#main-content h2{
+#main-content h2 {
   font-size: 3.125rem;
   font-weight: 400;
   font-stretch: normal;
@@ -131,7 +132,7 @@ div#why-us.offset{
   letter-spacing: normal;
 }
 
-#main-content p{
+#main-content p {
   font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
@@ -141,7 +142,7 @@ div#why-us.offset{
   color: #000000;
 }
 
-.btn-outline-primary{
+.btn-outline-primary {
   font-size: 0.75rem;
   font-weight: normal;
   font-stretch: normal;
@@ -151,7 +152,7 @@ div#why-us.offset{
   color: #5b9de3;
 }
 
-.btn{
+.btn {
   width: 9.125rem;
   height: 2.5rem;
   border-radius: 22.5px;
@@ -159,14 +160,17 @@ div#why-us.offset{
 }
 
 .btn-outline-primary:hover,
-.btn-outline-primary:active{
+.btn-outline-primary:active {
   color: #ffffff;
-
 }
 
 /* ******Right Side Content******* */
 
- h5{
+#box-b{
+  margin:48px 0 48px 0;
+}
+
+h5 {
   font-size: 1.375rem;
   font-weight: bold;
   font-stretch: normal;
@@ -176,7 +180,7 @@ div#why-us.offset{
   color: #343d42;
 }
 
-.media-body{
+.media-body {
   font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
@@ -186,8 +190,7 @@ div#why-us.offset{
   color: #000000;
 }
 
-.badge-primary{
-  
+.badge-primary {
   background-color: #5b9de3;
   border-radius: 8px;
   width: 75px;
@@ -196,23 +199,25 @@ div#why-us.offset{
   padding: 15px;
 }
 
-#main-content-2.col-md-6{
-
-    width: 46.563rem;
-    height: 32.313rem;
-    border-radius: 5px;
-    box-shadow: 0 15px 30px 0 rgba(25, 71, 128, 0.2);
-    background-color: #ffffff;
-    margin-top: 30px;
-    padding: 80px 60px 80px 60px;
-    max-width: 685px;
-    height: 100%;
+#main-content-2.col-md-6 {
+  width: 46.563rem;
+  height: 32.313rem;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px 0 rgba(25, 71, 128, 0.2);
+  background-color: #ffffff;
+  margin-top: 30px;
+  padding: 80px 60px 80px 60px;
+  max-width: 685px;
+  height: 100%;
+}
+#box-b > div{
+  padding-left: 0px;
 }
 /* <!--- End Why Maven Section --> */
 
 /* <!--- Start Courses Section --> */
 
-h3{
+h3 {
   font-size: 2.25rem;
   font-weight: 600;
   font-stretch: normal;
@@ -222,7 +227,7 @@ h3{
   color: #343d42;
 }
 
-#cards-par.text-center{
+#cards-par.text-center {
   font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
@@ -233,17 +238,17 @@ h3{
 }
 
 #courses {
-    background-color: rgba(91, 157, 227, 0.08); 
-    padding: 80px 0 80px 0;
+  background-color: rgba(91, 157, 227, 0.08);
+  padding: 80px 0 80px 0;
 }
 
 /* ******Cards******* */
 
-#cards-row{
+#cards-row {
   background-color: transparent;
 }
 
-.card{
+.card {
   width: 23.25rem;
   height: 30.563rem;
   box-shadow: 0 5px 20px 0 rgba(25, 71, 128, 0.2);
@@ -257,12 +262,12 @@ h3{
   transform: translate(0, -10px);
 }
 
-.card-header{
+.card-header {
   background-color: #ffffff;
   border: none;
 }
 
-h5{
+h5 {
   font-size: 0.938rem;
   font-weight: bold;
   font-stretch: normal;
@@ -272,7 +277,7 @@ h5{
   color: #459de9;
 }
 
-h6{
+h6 {
   font-size: 0.938rem;
   font-weight: normal;
   font-stretch: normal;
@@ -282,7 +287,7 @@ h6{
   color: #4a4a4a;
 }
 
-p.course-price{
+p.course-price {
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
@@ -292,7 +297,7 @@ p.course-price{
   color: #3a9aef;
 }
 
-a.courses-link{
+a.courses-link {
   font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
@@ -305,16 +310,16 @@ a.courses-link{
 }
 
 a.courses-link:hover,
-a.courses-link:active{
-  color:#459de9
+a.courses-link:active {
+  color: #459de9;
 }
 
-.card-footer{
+.card-footer {
   border: none;
   background-color: #ffffff;
 }
 
-#add-to-enquiry-btn{
+#add-to-enquiry-btn {
   border-radius: 22.5px;
   border: solid 2px #60a0e3;
   width: 17.813rem;
@@ -326,21 +331,21 @@ a.courses-link:active{
   line-height: 1.29;
   letter-spacing: normal;
   text-align: center;
-  color: #4d96ee
+  color: #4d96ee;
 }
 
 #add-to-enquiry-btn:hover,
-#add-to-enquiry-btn:active{
-  color: #ffffff
+#add-to-enquiry-btn:active {
+  color: #ffffff;
 }
 
 /* <!--- End Courses Section --> */
 
 /* <!--- Start Partners Section --> */
-#partners.container-fluid{
+#partners.container-fluid {
   padding: 80px 0 80px 0;
 }
-.client-carousel-head{
+.client-carousel-head {
   font-size: 3.125rem;
   font-weight: 600;
   font-stretch: normal;
@@ -350,49 +355,49 @@ a.courses-link:active{
   color: #343d42;
 }
 
-.client-carousel-par{
+.client-carousel-par {
   font-size: 1.125rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
-  color: #707277
+  color: #707277;
 }
 
 /* <!--- Start Carousel Section --> */
-.wrapper{
+.wrapper {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-.client-carousel-img{
+.client-carousel-img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-  opacity: .4;
+  opacity: 0.4;
 }
 
-.client-carousel-img:hover{
+.client-carousel-img:hover {
   filter: grayscale(0);
-  opacity:1;
+  opacity: 1;
 }
 
 /* <!--- End Carousel Section --> */
-#find-out-more-btn{
-box-shadow: none;
-font-size: 0.75rem;
-font-weight: normal;
-font-stretch: normal;  
-font-style: normal;
-line-height: 1.5;
-letter-spacing: normal;
-text-align: center;
+#find-out-more-btn {
+  box-shadow: none;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
 }
 
 #find-out-more-btn:hover,
-#find-out-more-btn:active{
-  color: #ffffff
+#find-out-more-btn:active {
+  color: #ffffff;
 }
 
 /* <!---End Partners Section --> */
