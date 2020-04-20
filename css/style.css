@@ -403,8 +403,50 @@ a.courses-link:active {
 /* <!---End Partners Section --> */
 
 /* <!--- Start Testimonials Section --> */
+.testimonial-area{
+  background-color: #36414c;
+}
+
+.testi-par p{
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.testi-par span{
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #5b9de3; 
+}
+
+.testi-text{  
+    font-size: 3.125rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.img-area{
+    width: 47.25rem;
+    height: 28.25rem;
+}
+
 
 /* <!--- End Testimonials Section --> */
+
+
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 

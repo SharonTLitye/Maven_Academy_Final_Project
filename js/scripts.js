@@ -29,10 +29,11 @@ $('.client-carousel').owlCarousel({
 // <!--- Start Testimonials Section Carousel -->
 $('#testimonials-carousel').owlCarousel({
     autoplay:true,
+    autoplaySpeed: 1000,
     dots:false,
     loop:true,
     nav:true,
-    navText: ['<i class="fas fa-arrow-right"></i>'],
+    navText: ['<i class="fas fa-arrow-right fa-2x" style="color:yellow !important"></i>'],
     responsive:{
         0:{
             items:1
