@@ -1,3 +1,4 @@
+
 //<!--- Start Carousel Section --> 
 
 $('.client-carousel').owlCarousel({
@@ -25,28 +26,27 @@ $('.client-carousel').owlCarousel({
 
 // <!--- End Carousel Section --> 
 
-// <!--- Start Testimonials Section -->
-$('.testimonials-carousel').owlCarousel({
-    loop:false,
-    margin:10,
-    nav:false,
-    responsiveClass:true,
+// <!--- Start Testimonials Section Carousel -->
+$('#testimonials-carousel').owlCarousel({
     autoplay:true,
-    autoplaySpeed: 500,
+    dots:false,
+    loop:true,
+    nav:true,
+    navText: ['<i class="fas fa-arrow-right"></i>'],
     responsive:{
         0:{
-            items:1,   
+            items:1
         },
         600:{
-            items:1,
+            items:1
         },
         700:{
-            items:1,
+            items:1
         },
         1000:{
-            items:1,
+            items:1
         }
     }
 })
 
-// <!--- End Testimonials Section -->
+// <!--- End Testimonials Section Carousel -->

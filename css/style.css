@@ -47,7 +47,7 @@ body {
 
 .masthead {
   min-height: calc(100vh - 70px);
-  background-color: rgba(91, 157, 227, 0.08); !important
+  background-color: rgba(91, 157, 227, 0.08); 
 }
 
 .main-head {
