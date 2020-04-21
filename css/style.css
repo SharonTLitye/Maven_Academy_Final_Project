@@ -403,8 +403,11 @@ a.courses-link:active {
 /* <!---End Partners Section --> */
 
 /* <!--- Start Testimonials Section --> */
+
 .testimonial-area{
-  background-color: #36414c;
+  background-color: #36414c !important;
+  padding: 100px 0 100px 0;
+  
 }
 
 .testi-par p{
