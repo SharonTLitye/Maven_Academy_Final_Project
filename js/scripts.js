@@ -33,7 +33,7 @@ $('#testimonials-carousel').owlCarousel({
     dots:false,
     loop:true,
     nav:true,
-    navText: ['<i class="fas fa-arrow-right fa-2x" style="color:yellow !important"></i>'],
+    navText: ['<i class="fas fa-arrow-right"></i>'],
     responsive:{
         0:{
             items:1

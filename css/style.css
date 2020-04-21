@@ -425,9 +425,11 @@ a.courses-link:active {
     line-height: 1.33;
     letter-spacing: normal;
     color: #5b9de3; 
+    display: block;
+    margin-top: 10px;
 }
 
-.testi-text{  
+.testi-text h4{  
     font-size: 3.125rem;
     font-weight: 600;
     font-stretch: normal;
@@ -437,10 +439,14 @@ a.courses-link:active {
     color: #ffffff;
 }
 
-.img-area{
-    width: 47.25rem;
-    height: 28.25rem;
+.img-space{
+    
 }
+
+#testimonials-carousel > div.owl-nav > button.owl-prev > svg > path{
+  fill:#4a90e2;
+}
+
 
 
 /* <!--- End Testimonials Section --> */
