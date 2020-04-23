@@ -3,8 +3,13 @@
 * {
   font-family: "Titillium Web", sans-serif;
   color: #343d42;
+  margin: 0;
+  padding: 0;
 }
 
+html, body{
+  height: 100%;
+}
 body {
   overflow-x: hidden;
 }
@@ -406,8 +411,7 @@ a.courses-link:active {
 
 .testimonial-area{
   background-color: #36414c !important;
-  padding: 100px 0 100px 0;
-  
+  padding: 100px 0 100px 0; 
 }
 
 .testi-par p{
@@ -418,6 +422,7 @@ a.courses-link:active {
     line-height: 1.33;
     letter-spacing: normal;
     color: #ffffff;
+    margin: 24px 0 24px 0;
 }
 
 .testi-par span{
@@ -437,22 +442,58 @@ a.courses-link:active {
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
-    line-height: normal;
+    
     letter-spacing: normal;
     color: #ffffff;
-}
-
-.img-space{
-    
 }
 
 #testimonials-carousel > div.owl-nav > button.owl-prev > svg > path{
   fill:#4a90e2;
 }
 
-
-
 /* <!--- End Testimonials Section --> */
+
+/* <!--- Start Contact Us Section --> */
+
+#contact-head h3{
+  font-size: 3.125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #343d42;
+}
+
+#contact-main p{
+ 
+    font-size: 1.25rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #343d42;
+
+}
+
+#contact-main-2 p{
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: normal;
+  color: #343d42;
+}
+/* <!--- End Contact Us Section --> */
+
+/* <!-- Start Footer --> */
+
+/* <!-- End Footer --> */
 
 
 
