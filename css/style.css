@@ -53,7 +53,7 @@ body {
 /* <!--- Start Landing Page Section --> */
 
 .masthead {
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 40px);
   background-color: rgba(91, 157, 227, 0.08); 
 }
 
@@ -518,6 +518,13 @@ a.courses-link:active {
 .footer .footer-content{
   border: 1px solid red;
   height: 360px;
+  display: flex;
+
+}
+
+.footer .footer-content .content-section{
+  flex: 1;
+  border: 1px solid white;
 }
 
 .copyright{
