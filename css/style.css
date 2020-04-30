@@ -494,39 +494,11 @@ a.courses-link:active {
 /* <!--- End Contact Us Section --> */
 
 /* <!-- Start Footer --> */
-.footer{
-  background-color: #36414c;
-  color: #ffffff;
-  height: 28.875rem;
-  position: relative;
-  overflow: auto;
+.address-list{
+  list-style-type: none;
 }
 
-.footer-bottom{
-  background-color: #1f262d;
-  color: #d8d8d8;
-  height: 50px;
-  text-align: center;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  padding: 40px 0 60px 0;
-  width: 100%;
-}
-
-
-.footer .footer-content{
-  border: 1px solid red;
-  height: 360px;
-  display: flex;
-
-}
-
-.footer .footer-content .content-section{
-  flex: 1;
-  border: 1px solid white;
-}
-
+/* bottom of footer */
 .copyright{
   text-align: left;
   color: #c6def6;
