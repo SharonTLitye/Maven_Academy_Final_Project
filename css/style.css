@@ -494,11 +494,32 @@ a.courses-link:active {
 /* <!--- End Contact Us Section --> */
 
 /* <!-- Start Footer --> */
+#footer-page{
+  background-color: #36414c;
+}
+.footer-headings{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #5b9de3;
+
+}
+
+
+
 .address-list{
   list-style-type: none;
 }
 
 /* bottom of footer */
+#footer-bottom{
+  background-color: #1f262d;
+  padding: 40px 0 40px 0;
+}
 .copyright{
   text-align: left;
   color: #c6def6;
