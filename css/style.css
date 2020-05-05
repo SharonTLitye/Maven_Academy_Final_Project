@@ -1,120 +1,121 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 
 * {
-  font-family: "Titillium Web", sans-serif;
-  color: #343d42;
-  margin: 0;
-  padding: 0;
+	font-family: "Titillium Web", sans-serif;
+	color: #343d42;
+	margin: 0;
+	padding: 0;
 }
 
-html, body{
-  height: 100%;
+html,
+body {
+	height: 100%;
 }
 body {
-  overflow-x: hidden;
+	overflow-x: hidden;
 }
-.page-wrapper{
-  min-height:100%;
+.page-wrapper {
+	min-height: 100%;
 }
 /*============= WEBSITE SECTION =============*/
 /* <!--- Start Navigation --> */
 
 .navbar {
-  background-color: #36414c !important;
-  box-shadow: inset 0 -1px 0 0 #cfd8dd;
+	background-color: #36414c !important;
+	box-shadow: inset 0 -1px 0 0 #cfd8dd;
 }
 
 .navbar-brand img {
-  width: 7.063rem;
-  height: 2.75rem;
+	width: 7.063rem;
+	height: 2.75rem;
 }
 
 .navbar-nav li {
-  padding-right: 0.7rem;
+	padding-right: 0.7rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: normal;
-  color: #ffffff;
-  font-style: normal;
-  line-height: 1.67;
-  padding-top: 0.8rem;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: normal;
+	color: #ffffff;
+	font-style: normal;
+	line-height: 1.67;
+	padding-top: 0.8rem;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #4a90e2;
+	color: #4a90e2;
 }
 /* <!--- End Navigation --> */
 
 /* <!--- Start Landing Page Section --> */
 
 .masthead {
-  min-height: calc(100vh - 40px);
-  background-color: rgba(91, 157, 227, 0.08); 
+	min-height: calc(100vh - 40px);
+	background-color: rgba(91, 157, 227, 0.08);
 }
 
 .main-head {
-  padding: 60px 0 60px 0px;
-  /* margin-top: 67px; */
+	padding: 60px 0 60px 0px;
+	/* margin-top: 67px; */
 }
 
 #caption h1 {
-  width: 100%;
-  max-width: 100%;
-  font-size: 3.5rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1;
-  letter-spacing: normal;
+	width: 100%;
+	max-width: 100%;
+	font-size: 3.5rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
 }
 
 h1.font-light-blue {
-  color: #4a90e2;
+	color: #4a90e2;
 }
 
 #tagline p {
-  font-size: 1.125rem;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.44;
-  letter-spacing: normal;
+	font-size: 1.125rem;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.44;
+	letter-spacing: normal;
 }
 
 #head-btn.btn {
-  width: 21.875rem;
-  height: 3.75rem;
-  font-size: 1.125rem;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  border: none;
-  border-radius: 30px;
-  box-shadow: 0 10px 20px 0 rgba(25, 71, 128, 0.2);
-  background-color: #5b9de3;
+	width: 21.875rem;
+	height: 3.75rem;
+	font-size: 1.125rem;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	border: none;
+	border-radius: 30px;
+	box-shadow: 0 10px 20px 0 rgba(25, 71, 128, 0.2);
+	background-color: #5b9de3;
 }
 
 #head-btn.btn:hover,
 #head-btn.btn:active {
-  color: #5b9de3;
-  background-color: #ffffff;
-  border: 2px solid #5b9de3;
-  text-decoration: none;
-  outline: none;
-  outline-color: initial;
-  outline-style: none;
-  outline-width: initial;
+	color: #5b9de3;
+	background-color: #ffffff;
+	border: 2px solid #5b9de3;
+	text-decoration: none;
+	outline: none;
+	outline-color: initial;
+	outline-style: none;
+	outline-width: initial;
 }
 
 .h-100 {
-  margin-top: 40px;
+	margin-top: 40px;
 }
 
 /* <!--- End Landing Page Section --> */
@@ -122,413 +123,453 @@ h1.font-light-blue {
 /* <!--- Start Why Maven Section --> */
 
 div#why-us.offset {
-  padding: 80px 0 80px 0;
+	padding: 80px 0 80px 0;
 }
 
 /* ******Left Side Content******* */
 #main-content.col-md-6 {
-  margin-top: 90px;
+	margin-top: 90px;
 }
 
 #main-content h2 {
-  font-size: 3.125rem;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
+	font-size: 3.125rem;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
 }
 
 #main-content p {
-  font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #000000;
+	font-size: 1rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #000000;
 }
 
 .btn-outline-primary {
-  font-size: 0.75rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #5b9de3;
+	font-size: 0.75rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #5b9de3;
 }
 
 .btn {
-  width: 9.125rem;
-  height: 2.5rem;
-  border-radius: 22.5px;
-  border: solid 2px #60a0e3;
+	width: 9.125rem;
+	height: 2.5rem;
+	border-radius: 22.5px;
+	border: solid 2px #60a0e3;
 }
 
 .btn-outline-primary:hover,
 .btn-outline-primary:active {
-  color: #ffffff;
+	color: #ffffff;
 }
 
 /* ******Right Side Content******* */
 
-#box-b{
-  margin:48px 0 48px 0;
+#box-b {
+	margin: 48px 0 48px 0;
 }
 
 h5 {
-  font-size: 1.375rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.09;
-  letter-spacing: normal;
-  color: #343d42;
+	font-size: 1.375rem;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.09;
+	letter-spacing: normal;
+	color: #343d42;
 }
 
 .media-body {
-  font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.13;
-  letter-spacing: normal;
-  color: #000000;
+	font-size: 1rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.13;
+	letter-spacing: normal;
+	color: #000000;
 }
 
 .badge-primary {
-  background-color: #5b9de3;
-  border-radius: 8px;
-  width: 75px;
-  height: 75px;
-  text-align: center;
-  padding: 15px;
+	background-color: #5b9de3;
+	border-radius: 8px;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+	padding: 15px;
 }
 
 #main-content-2.col-md-6 {
-  width: 46.563rem;
-  height: 32.313rem;
-  border-radius: 5px;
-  box-shadow: 0 15px 30px 0 rgba(25, 71, 128, 0.2);
-  background-color: #ffffff;
-  margin-top: 30px;
-  padding: 80px 60px 80px 60px;
-  max-width: 685px;
-  height: 100%;
+	width: 46.563rem;
+	height: 32.313rem;
+	border-radius: 5px;
+	box-shadow: 0 15px 30px 0 rgba(25, 71, 128, 0.2);
+	background-color: #ffffff;
+	margin-top: 30px;
+	padding: 80px 60px 80px 60px;
+	max-width: 685px;
+	height: 100%;
 }
-#box-b > div{
-  padding-left: 0px;
+#box-b > div {
+	padding-left: 0px;
 }
 /* <!--- End Why Maven Section --> */
 
 /* <!--- Start Courses Section --> */
 
 h3 {
-  font-size: 2.25rem;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #343d42;
+	font-size: 2.25rem;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #343d42;
 }
 
 #cards-par.text-center {
-  font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.75;
-  letter-spacing: normal;
-  color: #4f5559;
+	font-size: 1rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: normal;
+	color: #4f5559;
 }
 
 #courses {
-  background-color: rgba(91, 157, 227, 0.08);
-  padding: 80px 0 80px 0;
+	background-color: rgba(91, 157, 227, 0.08);
+	padding: 80px 0 80px 0;
 }
 
 /* ******Cards******* */
 
 #cards-row {
-  background-color: transparent;
+	background-color: transparent;
 }
 
 .card {
-  width: 23.25rem;
-  height: 30.563rem;
-  box-shadow: 0 5px 20px 0 rgba(25, 71, 128, 0.2);
-  background-color: #ffffff;
-  border: none;
-  border-radius: 5px 5px 5px 5px;
-  transition: 0.3s;
+	width: 23.25rem;
+	height: 30.563rem;
+	box-shadow: 0 5px 20px 0 rgba(25, 71, 128, 0.2);
+	background-color: #ffffff;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+	transition: 0.3s;
 }
 
 .card:hover {
-  transform: translate(0, -10px);
+	transform: translate(0, -10px);
 }
 
 .card-header {
-  background-color: #ffffff;
-  border: none;
+	background-color: #ffffff;
+	border: none;
 }
 
 h5 {
-  font-size: 0.938rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  color: #459de9;
+	font-size: 0.938rem;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	color: #459de9;
 }
 
 h6 {
-  font-size: 0.938rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  color: #4a4a4a;
+	font-size: 0.938rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	color: #4a4a4a;
 }
 
 p.course-price {
-  font-size: 1.25rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.9;
-  letter-spacing: normal;
-  color: #3a9aef;
+	font-size: 1.25rem;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.9;
+	letter-spacing: normal;
+	color: #3a9aef;
 }
 
 a.courses-link {
-  font-size: 0.875rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.29;
-  letter-spacing: normal;
-  color: #4a4a4a;
-  margin-bottom: 0;
-  text-decoration: underline;
+	font-size: 0.875rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.29;
+	letter-spacing: normal;
+	color: #4a4a4a;
+	margin-bottom: 0;
+	text-decoration: underline;
 }
 
 a.courses-link:hover,
 a.courses-link:active {
-  color: #459de9;
+	color: #459de9;
 }
 
 .card-footer {
-  border: none;
-  background-color: #ffffff;
+	border: none;
+	background-color: #ffffff;
 }
 
 #add-to-enquiry-btn {
-  border-radius: 22.5px;
-  border: solid 2px #60a0e3;
-  width: 17.813rem;
-  height: 2.5rem;
-  font-size: 0.875rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.29;
-  letter-spacing: normal;
-  text-align: center;
-  color: #4d96ee;
+	border-radius: 22.5px;
+	border: solid 2px #60a0e3;
+	width: 17.813rem;
+	height: 2.5rem;
+	font-size: 0.875rem;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.29;
+	letter-spacing: normal;
+	text-align: center;
+	color: #4d96ee;
 }
 
 #add-to-enquiry-btn:hover,
 #add-to-enquiry-btn:active {
-  color: #ffffff;
+	color: #ffffff;
 }
 
 /* <!--- End Courses Section --> */
 
 /* <!--- Start Partners Section --> */
 #partners.container-fluid {
-  padding: 80px 0 80px 0;
+	padding: 80px 0 80px 0;
 }
 .client-carousel-head {
-  font-size: 3.125rem;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #343d42;
+	font-size: 3.125rem;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #343d42;
 }
 
 .client-carousel-par {
-  font-size: 1.125rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  color: #707277;
+	font-size: 1.125rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #707277;
 }
 
 /* <!--- Start Carousel Section --> */
 .wrapper {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
 }
 
 .client-carousel-img {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  opacity: 0.4;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	opacity: 0.4;
 }
 
 .client-carousel-img:hover {
-  filter: grayscale(0);
-  opacity: 1;
+	filter: grayscale(0);
+	opacity: 1;
 }
 
 /* <!--- End Carousel Section --> */
 #find-out-more-btn {
-  box-shadow: none;
-  font-size: 0.75rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
+	box-shadow: none;
+	font-size: 0.75rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: center;
 }
 
 #find-out-more-btn:hover,
 #find-out-more-btn:active {
-  color: #ffffff;
+	color: #ffffff;
 }
 
 /* <!---End Partners Section --> */
 
 /* <!--- Start Testimonials Section --> */
 
-.testimonial-area{
-  background-color: #36414c !important;
-  padding: 100px 0 100px 0; 
+.testimonial-area {
+	background-color: #36414c !important;
+	padding: 100px 0 100px 0;
 }
 
-.testi-par p{
-    font-size: 1.125rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #ffffff;
-    margin: 24px 0 24px 0;
+.testi-par p {
+	font-size: 1.125rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #ffffff;
+	margin: 24px 0 24px 0;
 }
 
-.testi-par span{
-    font-size: 1.125rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #5b9de3; 
-    display: block;
-    margin-top: 10px;
+.testi-par span {
+	font-size: 1.125rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #5b9de3;
+	display: block;
+	margin-top: 10px;
 }
 
-.testi-text h4{  
-    font-size: 3.125rem;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    
-    letter-spacing: normal;
-    color: #ffffff;
+.testi-text h4 {
+	font-size: 3.125rem;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
-#testimonials-carousel > div.owl-nav > button.owl-prev > svg > path{
-  fill:#4a90e2;
+#testimonials-carousel > div.owl-nav > button.owl-prev > svg > path {
+	fill: #4a90e2;
 }
 
 /* <!--- End Testimonials Section --> */
 
 /* <!--- Start Contact Us Section --> */
 
-#contact-head h3{
-  font-size: 3.125rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.86;
-  letter-spacing: normal;
-  text-align: center;
-  color: #343d42;
+#contact-head h3 {
+	font-size: 3.125rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.86;
+	letter-spacing: normal;
+	text-align: center;
+	color: #343d42;
 }
 
-#contact-main p{
- 
-    font-size: 1.25rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-align: center;
-    color: #343d42;
-
+#contact-main p {
+	font-size: 1.25rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: center;
+	color: #343d42;
 }
 
-#contact-main-2 p{
-  text-align: center;
-  font-size: 1.25rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.15;
-  letter-spacing: normal;
-  color: #343d42;
+#contact-main-2 p {
+	text-align: center;
+	font-size: 1.25rem;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.15;
+	letter-spacing: normal;
+	color: #343d42;
 }
 /* <!--- End Contact Us Section --> */
 
 /* <!-- Start Footer --> */
-#footer-page{
-  background-color: #36414c;
+#footer-page {
+	background-color: #36414c;
 }
-.footer-headings{
-    font-size: 14px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.43;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    color: #5b9de3;
-
+body > footer {
+	background-color: #36414c;
+}
+.footer-headings {
+	font-size: 14px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.43;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	color: #5b9de3;
 }
 
-
-
-.address-list{
-  list-style-type: none;
+.address-list {
+	list-style-type: none;
 }
 
 /* bottom of footer */
-#footer-bottom{
-  background-color: #1f262d;
-  padding: 40px 0 40px 0;
+#footer-background {
+	padding: 0;
+	margin: 0;
 }
-.copyright{
-  text-align: left;
-  color: #c6def6;
-  font-size: 12px;
+.footer-block {
+	background-color: #1f262d;
+}
+#footer-bottom {
+	background-color: #1f262d;
+	padding: 40px 0 40px 0;
+}
+
+.footer-content {
+	box-sizing: border-box;
+}
+
+.footer-link {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.footer-link:hover {
+	color: #4a90e2;
+	text-decoration: none;
+}
+
+.footer-link:active {
+	color: #ffffff;
+	text-decoration: none;
+	transition: all 0.3s linear;
+}
+
+.f-size {
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.f-icon {
+	float: left;
+  max-width: 100%;
+	image-rendering: auto;
+}
+
+.f-box{
+  margin-right: 10px;
+}
+
+.copyright {
+	text-align: left;
+	color: #c6def6;
+	font-size: 12px;
 }
 /* <!-- End Footer --> */
-
-
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 
