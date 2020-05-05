@@ -1,3 +1,27 @@
+
+//<!--- Start Landing Page Section -->
+
+var i = 0;
+var txt = 'Web development, User interface design';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("typewriter").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+//<!--- Ennd Landing Page Section -->
+
+
+
+
+
+
+
+
+
 //<!--- Start Carousel Section -->
 
 $(".client-carousel").owlCarousel({

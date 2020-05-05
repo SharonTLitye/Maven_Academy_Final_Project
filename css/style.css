@@ -557,11 +557,9 @@ body > footer {
 .f-icon {
 	float: left;
   max-width: 100%;
-	image-rendering: auto;
-}
-
-.f-box{
+  image-rendering: auto;
   margin-right: 10px;
+  
 }
 
 .copyright {
