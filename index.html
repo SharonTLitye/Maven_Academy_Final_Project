@@ -13,32 +13,17 @@
 </head>
 
 <body data-spy="scroll" data-target="#navbarResponsive">
+
 <!--- Start Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-	<a class="navbar-brand" href="index.html"><img src="assests\images\maven_academy.png"  alt="Maven Academy Logo"></a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse text-center" id="navbarResponsive">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="#home">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#courses">Courses</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#contact-us">Contact us</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Cart</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Icon</a>
-			</li>
-		</ul>
-	</div>
-</nav>
+
+<div class="nav-placeholder">
+
+</div>
+<script>
+	$(function(){
+	  $(".nav-placeholder").load("header.html");
+	});
+	</script>
 <!--- End Navigation -->
 
 <!--- Start main content -->
@@ -50,9 +35,12 @@
 	<div class="container h-100 main-head">
 	  <div class="row h-100 align-items-center">
 		<div id="caption" class="col-12 text-center">
-		  <h1 class="font-dark">Next level training in</h1>
-		  <h1 id="typewriter" class="font-light-blue"></h1>
+		  
+		  <h1 class="font-dark">Next level training in
+			<div id="app"></div>
+		  </h1>
 		</div>
+		
 		<div class="col-12 text-center">
 			<img  srcset="assests\images\tech-mavens@2x.png 1164w, assests\images\tech-mavens@3x.png 1746w" src="assests\images\tech-mavens.png"  alt="Technology Mavens">
 		</div>
@@ -335,159 +323,19 @@
 </div>
 <!--- End main content -->
 
-<!-- Start Footer -->
-<footer class="page-footer font-small pt-4">
 
-	<!-- Footer Links -->
-	<div id="footer-background" class="container-fluid text-center text-md-left">
-  
-	  <!-- Footer links -->
-	  <div class="container footer-content">
-	   <div id="footer-page" class="row text-center text-md-left mt-3 pb-3">
-  
-		<!-- Grid column -->
-		<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-		  <h6 class="text-uppercase mb-4 font-weight-bold footer-headings">General</h6>
-		  <p>
-			<a class="footer-link"href="index.html">Home</a>
-		  </p>
-		  <p>
-			<a class="footer-link" href="https://themavenacademy.one/faq/" target="_blank">Faq</a>
-		  </p>
-		</div>
-		<!-- Grid column -->
-  
-		<hr class="w-100 clearfix d-md-none">
-  
-		<!-- Grid column -->
-		<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-		  <h6 class="text-uppercase mb-4 font-weight-bold footer-headings">WHY US </h6>
-		  <p>
-			<a class="footer-link" href="https://themavenacademy.one/why-us/" target="_blank">Why Study with us?</a>
-		  </p>
-		  <p>
-			<a class="footer-link" href="https://themavenacademy.one/financial-aid/" target="_blank">Financial Aid - Study for Just R1</a>
-		  </p>
-		  <p>
-			<a class="footer-link" href="https://themavenacademy.one/internship-programme/" target="_blank">Internship - Work, Learn &amp; Earn</a>
-		  </p>
-		</div>
-		<!-- Grid column -->
-  
-		<hr class="w-100 clearfix d-md-none">
-  
-		<!-- Grid column -->
-		<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-		  <h6 class="text-uppercase mb-4 font-weight-bold footer-headings">DEVELOPER COURSES</h6>
-		  <p>
-			<a class="footer-link" href="#courses">Full Stack Web Developer</a>
-		  </p>
-		  <p>
-			<a class="footer-link" href="#courses">Front End Web Fundamentals</a>
-		  </p>
-		</div>
-  
-		<!-- Grid column -->
-		<hr class="w-100 clearfix d-md-none">
-  
-		<!-- Grid column -->
-		<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-		  <h6 class="text-uppercase mb-4 font-weight-bold footer-headings">CONTACT US</h6>
-		<div class="address">
-			<ul class="address-list">
-				<li>
-					<span><img class="f-icon" src="assests\images\phone-icon.svg" alt="Phone"></span>
-					<a href="tel:+27 21 461 68 17" class="footer-link f-size">+27 21 461 68 17</a>
-				</li>
-				<li>
-					<span><img class="f-icon" src="assests\images\email-icon.svg" alt="Email"></span>
-					<p><a class="footer-link link" href="mailto:hello@themavenacademy.one" >hello@themavenacademy.one</a></p>
-				</li>
-				<li class="mb-0">
-					<span><img class="f-icon" src="assests\images\location-icon.svg" alt="Location"></span>
-					<p><a class="footer-link" href="https://www.google.com/maps/place/Maven+Academy/@-33.9841523,18.4705138,15.58z/data=!4m8!1m2!2m1!1sOffice+F01A,+Brookside+Office+Park,+11+Imam+Haron+Road,+Claremont,+Western+Cape,+7708!3m4!1s0x1dcc42d744bfffff:0x11e36a6814254aac!8m2!3d-33.9828575!4d18.4701694">Office F01A, Brookside Office Park, 11 Imam Haron Road, Claremont, Western Cape, 7708</a></p>
-				</li>
-			</ul>
-		</div>		  
-		</div>
-		<!-- Grid column -->
-  
-	   </div>
-	  </div>
-	  <!-- Footer links -->
-  
-	  <hr>
-  
-	  <!-- Start bottom footer -->
-	  <div class="footer-block">
-		<div class="container">
-			<div id="footer-bottom" class="row d-flex align-items-center">
-		
-				<!-- Grid column -->
-				<div class="col-md-7 col-lg-8">
-		
-				<!--Copyright-->
-				<p class="text-center text-md-left">by Sharon T. Litye
-					<a href="https://themavenacademy.one/">
-					<strong> All Rights Reserved, Maven Academy (Pty) Ltd.</strong>
-					</a>
-				</p>
-		
-				</div>
-				<!-- Grid column -->
-		
-				<!-- Grid column -->
-				<div class="col-md-5 col-lg-4 ml-lg-0">
-		
-				<!-- Social buttons -->
-				<div class="text-center text-md-right">
-					<ul class="list-unstyled list-inline">
-					<li class="list-inline-item">
-						<a class="btn-floating btn-sm rgba-white-slight mx-1">
-						<i class="fab fa-facebook-f"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a class="btn-floating btn-sm rgba-white-slight mx-1">
-						<i class="fab fa-twitter"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a class="btn-floating btn-sm rgba-white-slight mx-1">
-						<i class="fab fa-google-plus-g"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a class="btn-floating btn-sm rgba-white-slight mx-1">
-						<i class="fab fa-linkedin-in"></i>
-						</a>
-					</li>
-					</ul>
-				</div>
-		
-				</div>
-				<!-- Grid column -->
-		
-			</div>
-		</div>
-	 </div>
 
-	  <!-- End bottom footer -->
-  
-	</div>
-	<!-- Footer Links -->
-  
-  </footer>
-  <!-- End Footer -->
 
 
 
 
 <!--- Script Source Files -->
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
 <script src="js\owl.carousel.min.js"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script src="js\scripts.js"></script>
 <!--- End of Script Source Files -->
 

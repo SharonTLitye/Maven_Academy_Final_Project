@@ -556,11 +556,26 @@ body > footer {
 
 .f-icon {
 	float: left;
-  max-width: 100%;
-  image-rendering: auto;
-  margin-right: 10px;
-  
+	max-width: 100%;
+	image-rendering: auto;
+	margin-right: 10px;
 }
+.social-link{
+	width: 34px;
+    height: 34px;
+    text-align: center;
+    background-color: #5b9de3;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+#footer-bottom > div.col-md-7.col-lg-8 > p,
+#footer-bottom > div.col-md-7.col-lg-8 > p > a > strong {
+	color: #c6def6;
+	font-size: 12px;
+	margin: 0;
+}
+
 
 .copyright {
 	text-align: left;

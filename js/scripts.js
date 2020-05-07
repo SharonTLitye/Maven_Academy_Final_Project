@@ -1,18 +1,39 @@
+//<!--- Start Navigation -->
 
-//<!--- Start Landing Page Section -->
+//<!--- End Navigation -->
 
-var i = 0;
-var txt = 'Web development, User interface design';
-var speed = 50;
 
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("typewriter").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-//<!--- Ennd Landing Page Section -->
+//<!--- Typewriter-Landing Page Section -->
+
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('User interface disi')
+	.pauseFor(1000)
+	.deleteChars(3)
+	.typeString('esign')
+	.pauseFor(2500)
+	.deleteAll()
+	.typeString('User experience')
+	.pauseFor(2500)
+	.deleteAll()
+	.typeString('Web development')
+    .pauseFor(2500)
+	.deleteAll()
+	.typeString('User interface design')
+    .pauseFor(2500)
+	.deleteAll()
+	.typeString('Mobile development')
+    .pauseFor(2500)
+	.deleteAll()
+	.typeString('Software development')
+    .pauseFor(2500)
+    
+    .start();
+//<!--- End Landing Page Section -->
 
 
 
