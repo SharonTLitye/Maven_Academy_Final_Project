@@ -503,7 +503,7 @@ a.courses-link:active {
 #footer-page {
 	background-color: #36414c;
 }
-body > div:nth-child(3) > footer {
+#footer-box {
 	background-color: #36414c;
 }
 .footer-headings {
