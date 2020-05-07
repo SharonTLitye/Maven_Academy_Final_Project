@@ -1,344 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Maven Academy</title>
-	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css\style.css">
-	<link rel="stylesheet" href="css\owl.carousel.css">
-	<link rel="stylesheet" href="css\owl.theme.default.css">
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-</head>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>Maven Academy</title>
+		<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css\style.css" />
+		<link rel="stylesheet" href="css\owl.carousel.css" />
+		<link rel="stylesheet" href="css\owl.theme.default.css" />
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	</head>
 
-<body data-spy="scroll" data-target="#navbarResponsive">
-
-<!--- Start Navigation -->
-
-<div class="nav-placeholder">
-
-</div>
-<script>
-	$(function(){
-	  $(".nav-placeholder").load("header.html");
-	});
-	</script>
-<!--- End Navigation -->
-
-<!--- Start main content -->
-<div class="page-wrapper">
-<!--- Start Home Section -->
-<div id="home">
-<!--- Start Landing Page Section -->
-<header class="masthead">
-	<div class="container h-100 main-head">
-	  <div class="row h-100 align-items-center">
-		<div id="caption" class="col-12 text-center">
-		  
-		  <h1 class="font-dark">Next level training in
-			<div id="app" class="font-light-blue"></div>
-		  </h1>
-		</div>
+	<body data-spy="scroll" data-target="#navbarResponsive">
+		<!--- Start Navigation -->
+		<div w3-include-html="assests\partials\header.html"></div>
 		
-		<div class="col-12 text-center">
-			<img  srcset="assests\images\tech-mavens@2x.png 1164w, assests\images\tech-mavens@3x.png 1746w" src="assests\images\tech-mavens.png"  alt="Technology Mavens">
-		</div>
-		<div id="tagline" class="col-12 text-center">
-			<p>Take your tech career to the next level with our immersive software development programmes</p>
-		</div>
-		<div class="col-12 text-center">
-			<a href="#courses">
-			<button id="head-btn" type="button" class="btn btn-primary btn-shadow btn-lg">Find Out More</button>
-			</a>
-		</div>		             
-	  </div>
-	</div>
-</header>
-<!-- End Landing Page Section -->
-</div>
-<!--- End Home Section -->
+		<!--- End Navigation -->
 
-<!--- Start Why Maven Section -->
-<div id="why-us" class="offset">
-	<div class="container-fluid">
-		<div class="row">
-			<div id="main-content" class="col-md-6">
-				<h2 class="text-center">
-					Why Maven Academy?
-				</h2>
-				<p class="text-center">
-					We’re disrupting the way you learn new technology by immersing you into real-world work conditions so you can learn what you need to hit the ground running in the top development jobs at the head of the line.
-				</p>
-				<p class="text-center">
-					After two decades of building bespoke software solutions, and from our own hands-on coding experience, we’ve crafted a comprehensive software development curriculum that equips you for today’s complex technical work environments and prepares you for the future with exposure to cutting-edge technology.
-				</p> 
-				<a href="https://themavenacademy.one/why-us/" target="_blank">
-					<button type="button" id=read-more-btn class="btn btn-outline-primary text-center">Read More</button>
-				  </a>
-			</div> <!--- Left Side Content -->
-			<div id="main-content-2" class="col-md-6">
-				<div id="box-a" class="row">
-					<div class="col-md-12">
-						<div id="creating" class="media">
-							<img class="mr-3 badge-primary" src="assests\images\career-changers.svg" alt="Career changers">
-							<div class="media-body">
-								<h5 class="mt-0">
-									Learn by creating 
-								</h5> Master the art of code by working on projects that reflect the kind of work you will carry out for future employers and clients.
+		<!--- Start main content -->
+		<div class="page-wrapper">
+			<!--- Start Home Section -->
+			<div id="home">
+				<!--- Start Landing Page Section -->
+				<header class="masthead">
+					<div class="container h-100 main-head">
+						<div class="row h-100 align-items-center">
+							<div id="caption" class="col-12 text-center">
+								<h1 class="font-dark">
+									Next level training in
+									<div id="app" class="font-light-blue"></div>
+								</h1>
+							</div>
+							<div class="col-12 text-center">
+								<img
+									srcset="
+										assests\images\tech-mavens@2x.png 1164w,
+										assests\images\tech-mavens@3x.png 1746w
+									"
+									src="assests\images\tech-mavens.png"
+									alt="Technology Mavens"
+								/>
+							</div>
+							<div id="tagline" class="col-12 text-center">
+								<p>
+									Take your tech career to the next level with our immersive
+									software development programmes
+								</p>
+							</div>
+							<div class="col-12 text-center">
+								<a href="#courses">
+									<button
+										id="head-btn"
+										type="button"
+										class="btn btn-primary btn-shadow btn-lg"
+									>
+										Find Out More
+									</button>
+								</a>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div id="box-b" class="row">
-					<div class="col-md-12">
-						<div id="coaching" class="media">
-							<img class="mr-3 badge-primary" src="assests\images\career-boosters.svg" alt="Career Boosters">
-							<div class="media-body">
-								<h5 class="mt-0">
-									Expert coaching
-								</h5> Adopt the best-practice development techniques with on-demand access to mentors bringing their global tech exposure directly to you. Consistent feedback and mentorship refine your skills until you are comfortable producing efficient, production-grade code without hesitation.
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="box-c" class="row">
-					<div class="col-md-12">
-						<div id ="programme" class="media">
-							<img class="mr-3 badge-primary" src="assests\images\recent-graduates.svg" alt="Graduates">
-							<div class="media-body">
-								<h5 class="mt-0">
-									Internship Programme
-								</h5> Don’t struggle with the job hunt! Hit the ground sprinting with our exclusive platform that allows you to Work, Learn, and Earn at the same time.
-							</div>
-						</div> 
-					</div> 
-				</div>
-			</div> <!--- Right Side Content -->
-		</div>
-	</div>
-
-</div>
-<!--- End Why Maven Section -->
-
-<!--- Start Courses Section -->
-<div id="courses" class="offset">
-
-    <div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<h3 class="text-center">
-					Our Courses
-				</h3>
-				<p id="cards-par"class="text-center">
-					Immersive training programs aimed at accelerating your career in tech, regardless of your experience level. We meet you where you’re at, and support you far beyond your goals!
-				</p>
-				<div id="cards-row" class="row">
-					<div class="col-md-4">
-						<div class="card">
-							<h5 class="card-header text-center">
-								Become a Full Stack Web Developer
-								<br>
-								<h6 class="text-center">12 Week Course - In classroom</h6>
-							</h5>
-							<div class="card-body text-center">
-								<img src="assests\images\webdeveloper.png" alt="Web Developer">
-								<p class="course-price"> R26,000,00 Excl Vat
-									<br>
-								</p>
-								<a class="courses-link text-center" href="#"> View course detail </a>
-							</div>
-							<div class="card-footer text-center">
-								<a href="#">
-									<button type="button" id=add-to-enquiry-btn class="btn btn-outline-primary text-center">Add to enquiry</button>
-								  </a>
-							</div>
-						</div>
-					</div> <!--- Left Card -->
-					<div class="col-md-4">
-						<div class="card">
-							<h5 class="card-header text-center">
-								Become a Front End Web Developer 
-								<br>
-								<h6 class="text-center">4 Week Course - In classroom</h6> 
-							</h5>
-							<div class="card-body text-center">
-								<img src="assests\images\frontend-dev.png" alt="Front End Developer">
-								<p class="course-price"> R26,000,00 Excl Vat
-									<br>
-								</p>
-								<a class="courses-link text-center" href="#"> View course detail </a>
-							</div>
-							<div class="card-footer text-center">
-								<a href="#">
-									<button type="button" id=add-to-enquiry-btn class="btn btn-outline-primary text-center">Add to enquiry</button>
-								  </a>
-							</div>
-						</div>
-					</div> <!--- Center Card -->
-					<div class="col-md-4">
-						<div class="card">
-							<h5 class="card-header text-center">
-								Become a Java Spring Boot Developer
-							</5>
-								<br>
-								<h6 class="text-center">12 Week Course - In classroom</h6>
-							
-							<div class="card-body text-center">
-								<img src="assests\images\spring-boot-dev.png" alt="Spring Boot Developer">
-								<p class="course-price"> R26,000,00 Excl Vat
-									<br>
-								</p>
-								<a class="courses-link text-center" href="#"> View course detail </a>
-							</div>
-							<div class="card-footer text-center">
-								<a href="#">
-									<button type="button" id=add-to-enquiry-btn class="btn btn-outline-primary text-center">Add to enquiry</button>
-								  </a>
-							</div>
-						</div>
-					</div> <!--- Right Card -->
-				</div>
+				</header>
+				<!-- End Landing Page Section -->
 			</div>
-		</div>
-	</div>
-</div>
-<!--- End Courses Section -->
+			<!--- End Home Section -->
 
-<!--- Start Partners Section -->
-<div id="partners" class="container-fluid">
-	<div class="row">
-		<div class="col-md-12">
-				<h2 class=client-carousel-head>
-					Career Services
-				</h2>
-				<p class="client-carousel-par">
-					The Maven Academy is committed to helping you secure a new job after finishing your bootcamp. With your hard-work and our help, we’re confident that you can get hired by a fantastic company.
-				</p>
-				<!--- Start Carousel Section -->
-				<div class="wrapper">
-					<div class=" client-carousel section-padding owl-carousel">
-						<div class="img-area">
-							<img class="client-carousel-img" src="assests\images\companies-logo\logo-zando.png" alt="Zando Logo">
+			<!--- Start Why Maven Section -->
+			<div id="why-us" class="offset">
+				<div class="container-fluid">
+					<div class="row">
+						<div id="main-content" class="col-md-6">
+							<h2 class="text-center">
+								Why Maven Academy?
+							</h2>
+							<p class="text-center">
+								We’re disrupting the way you learn new technology by immersing
+								you into real-world work conditions so you can learn what you
+								need to hit the ground running in the top development jobs at
+								the head of the line.
+							</p>
+							<p class="text-center">
+								After two decades of building bespoke software solutions, and
+								from our own hands-on coding experience, we’ve crafted a
+								comprehensive software development curriculum that equips you
+								for today’s complex technical work environments and prepares you
+								for the future with exposure to cutting-edge technology.
+							</p>
+							<a href="https://themavenacademy.one/why-us/" target="_blank">
+								<button
+									type="button"
+									id="read-more-btn"
+									class="btn btn-outline-primary text-center"
+								>
+									Read More
+								</button>
+							</a>
 						</div>
-						<div class="img-area">
-							<img class="client-carousel-img" src="assests\images\companies-logo\logo-nedbank.png" alt="Nedbank Logo">
-						</div>
-						<div class="img-area">
-							<img class="client-carousel-img" src="assests\images\companies-logo\logo-vuma.png" alt="Vuma Logo">
-						</div>
-						<div class="img-area">
-							<img class="client-carousel-img" src="assests\images\companies-logo\logo-flash.png" alt="Flash Logo">
-						</div>
-					</div>
-				</div>
-				<!--- End Carousel Section -->    
-				<div>
-					<a id="find-out-more-btn" class="btn btn-outline-primary btn-lg text-center" target="_blank" href="https://themavenacademy.one/why-us/">Find out more</a>
-				</div>
-		</div>
-	</div>
-</div>
-<!--- End Partners Section -->
-
-<!--- Start Testimonials Section -->
-<div class="testimonial-area">
-	<div id="testi-carousel" class="container">
-		<div class="row">
-			<div class="col-md-12 justify-content-center">
-				<div class="owl-carousel testi-slides" id="testimonials-carousel">
-					<div class="item">
-						<div class="single-testimonial">
-						  <div class="row justify-content-center">
-							<div class="col-md-6">
-							  <div class="testi-text">
-								<h4>What our students think about our courses</h4>
-							  </div>
-							  <div class="testi-par">
-								<p>Being a Digital Account Manager I’ve wanted to transition into the world of programming to better understand how to manage teams and build my own digital assets for web and mobile. I found that this 4 week web fundamentals course truly gave me all the necessary skills and tools to achieve my goals.<span>-Kay Solomons</span></p>
-							  </div>
+						<!--- Left Side Content -->
+						<div id="main-content-2" class="col-md-6">
+							<div id="box-a" class="row">
+								<div class="col-md-12">
+									<div id="creating" class="media">
+										<img
+											class="mr-3 badge-primary"
+											src="assests\images\career-changers.svg"
+											alt="Career changers"
+										/>
+										<div class="media-body">
+											<h5 class="mt-0">
+												Learn by creating
+											</h5>
+											Master the art of code by working on projects that reflect
+											the kind of work you will carry out for future employers
+											and clients.
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="img-space col-md-6">
-								<img src="assests\images\Kay.jpg" class="img-fluid" alt="Maven Academy Graduate">
+							<div id="box-b" class="row">
+								<div class="col-md-12">
+									<div id="coaching" class="media">
+										<img
+											class="mr-3 badge-primary"
+											src="assests\images\career-boosters.svg"
+											alt="Career Boosters"
+										/>
+										<div class="media-body">
+											<h5 class="mt-0">
+												Expert coaching
+											</h5>
+											Adopt the best-practice development techniques with
+											on-demand access to mentors bringing their global tech
+											exposure directly to you. Consistent feedback and
+											mentorship refine your skills until you are comfortable
+											producing efficient, production-grade code without
+											hesitation.
+										</div>
+									</div>
+								</div>
 							</div>
-						  </div>
+							<div id="box-c" class="row">
+								<div class="col-md-12">
+									<div id="programme" class="media">
+										<img
+											class="mr-3 badge-primary"
+											src="assests\images\recent-graduates.svg"
+											alt="Graduates"
+										/>
+										<div class="media-body">
+											<h5 class="mt-0">
+												Internship Programme
+											</h5>
+											Don’t struggle with the job hunt! Hit the ground sprinting
+											with our exclusive platform that allows you to Work,
+											Learn, and Earn at the same time.
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="item">
-						<div class="single-testimonial">
-						  <div class="row">	
-							<div class="col-md-6">
-							  <div class="testi-text">
-								<h4>What our students think about our courses</h4>
-							  </div>
-							  <div class="testi-par">
-								<p>Being a certified Scrum Master & Product Owner - I have a general love for process and systems. The 4 Week Web Fundamentals course was the perfect fit to help me better equip myself for the technical roles I fulfil as a team lead in web projects. This course has helped take my career to new heights, and has thought me some seriously valuable insights into coding.<span>-Neil Lennon</span></p>
-							  </div>
-							</div>
-							<div class="img-space col-md-6">
-								<img src="assests\images\neil.jpg" class="img-fluid" alt="Maven Academy Graduate">
-							</div>
-						  </div>
-						</div>
+						<!--- Right Side Content -->
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
-<!--- End Testimonials Section -->
+			<!--- End Why Maven Section -->
 
-<!--- Start Contact Us Section -->
-<div id="contact-us" class="offset">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12" >
-				<div class="col-12 text-center">
-				 <img srcset="assests\images\contact-banner@2x.png 1072w, assests\images\contact-banner@3x.png 1608w" src="assests\images\contact-banner.png" alt="contact us image">
+			<!--- Start Courses Section -->
+			<div id="courses" class="offset">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="text-center">
+								Our Courses
+							</h3>
+							<p id="cards-par" class="text-center">
+								Immersive training programs aimed at accelerating your career in
+								tech, regardless of your experience level. We meet you where
+								you’re at, and support you far beyond your goals!
+							</p>
+							<div id="cards-row" class="row">
+								<div class="col-md-4">
+									<div class="card">
+										<h5 class="card-header text-center">
+											Become a Full Stack Web Developer
+											<br />
+											<h6 class="text-center">12 Week Course - In classroom</h6>
+										</h5>
+										<div class="card-body text-center">
+											<img
+												src="assests\images\webdeveloper.png"
+												alt="Web Developer"
+											/>
+											<p class="course-price">
+												R26,000,00 Excl Vat
+												<br />
+											</p>
+											<a class="courses-link text-center" href="#">
+												View course detail
+											</a>
+										</div>
+										<div class="card-footer text-center">
+											<a href="#">
+												<button
+													type="button"
+													id="add-to-enquiry-btn"
+													class="btn btn-outline-primary text-center"
+												>
+													Add to enquiry
+												</button>
+											</a>
+										</div>
+									</div>
+								</div>
+								<!--- Left Card -->
+								<div class="col-md-4">
+									<div class="card">
+										<h5 class="card-header text-center">
+											Become a Front End Web Developer
+											<br />
+											<h6 class="text-center">4 Week Course - In classroom</h6>
+										</h5>
+										<div class="card-body text-center">
+											<img
+												src="assests\images\frontend-dev.png"
+												alt="Front End Developer"
+											/>
+											<p class="course-price">
+												R26,000,00 Excl Vat
+												<br />
+											</p>
+											<a class="courses-link text-center" href="#">
+												View course detail
+											</a>
+										</div>
+										<div class="card-footer text-center">
+											<a href="#">
+												<button
+													type="button"
+													id="add-to-enquiry-btn"
+													class="btn btn-outline-primary text-center"
+												>
+													Add to enquiry
+												</button>
+											</a>
+										</div>
+									</div>
+								</div>
+								<!--- Center Card -->
+								<div class="col-md-4">
+									<div class="card">
+										<h5 class="card-header text-center">
+											Become a Java Spring Boot Developer
+										</h5>
+										<br />
+										<h6 class="text-center">12 Week Course - In classroom</h6>
+
+										<div class="card-body text-center">
+											<img
+												src="assests\images\spring-boot-dev.png"
+												alt="Spring Boot Developer"
+											/>
+											<p class="course-price">
+												R26,000,00 Excl Vat
+												<br />
+											</p>
+											<a class="courses-link text-center" href="#">
+												View course detail
+											</a>
+										</div>
+										<div class="card-footer text-center">
+											<a href="#">
+												<button
+													type="button"
+													id="add-to-enquiry-btn"
+													class="btn btn-outline-primary text-center"
+												>
+													Add to enquiry
+												</button>
+											</a>
+										</div>
+									</div>
+								</div>
+								<!--- Right Card -->
+							</div>
+						</div>
+					</div>
 				</div>
-				<div id="contact-head" class="col-12 text-center">
-				 <h3>
-					Thank you for your enquiry.
-				 </h3>
-				</div>
-				<div id="contact-main" class="col-12 text-center">
-				  <p>
-					One of our friendly course consultants and we’ll get back to you within 24 hours.
-				  </p>
-				<div id="contact-main-2" class="col-12 text-center">
-				  <p>
-					Or call us directly on <a href="tel:+27 87 073 5694"> +27 (0)87 073 5694</a>	
-				  </p>
-				  <p>
-					Need a quicker answer ? visit out Faq page : <a href="https://themavenacademy.one/faq/" target="_blank">Click here</a> 
-				  </p>
-				</div>
-			</div>				
 			</div>
+			<!--- End Courses Section -->
+
+			<!--- Start Partners Section -->
+			<div id="partners" class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="client-carousel-head">
+							Career Services
+						</h2>
+						<p class="client-carousel-par">
+							The Maven Academy is committed to helping you secure a new job
+							after finishing your bootcamp. With your hard-work and our help,
+							we’re confident that you can get hired by a fantastic company.
+						</p>
+						<!--- Start Carousel Section -->
+						<div class="wrapper">
+							<div class="client-carousel section-padding owl-carousel">
+								<div class="img-area">
+									<img
+										class="client-carousel-img"
+										src="assests\images\companies-logo\logo-zando.png"
+										alt="Zando Logo"
+									/>
+								</div>
+								<div class="img-area">
+									<img
+										class="client-carousel-img"
+										src="assests\images\companies-logo\logo-nedbank.png"
+										alt="Nedbank Logo"
+									/>
+								</div>
+								<div class="img-area">
+									<img
+										class="client-carousel-img"
+										src="assests\images\companies-logo\logo-vuma.png"
+										alt="Vuma Logo"
+									/>
+								</div>
+								<div class="img-area">
+									<img
+										class="client-carousel-img"
+										src="assests\images\companies-logo\logo-flash.png"
+										alt="Flash Logo"
+									/>
+								</div>
+							</div>
+						</div>
+						<!--- End Carousel Section -->
+						<div>
+							<a
+								id="find-out-more-btn"
+								class="btn btn-outline-primary btn-lg text-center"
+								target="_blank"
+								href="https://themavenacademy.one/why-us/"
+								>Find out more</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--- End Partners Section -->
+
+			<!--- Start Testimonials Section -->
+			<div class="testimonial-area">
+				<div id="testi-carousel" class="container">
+					<div class="row">
+						<div class="col-md-12 justify-content-center">
+							<div class="owl-carousel testi-slides" id="testimonials-carousel">
+								<div class="item">
+									<div class="single-testimonial">
+										<div class="row justify-content-center">
+											<div class="col-md-6">
+												<div class="testi-text">
+													<h4>What our students think about our courses</h4>
+												</div>
+												<div class="testi-par">
+													<p>
+														Being a Digital Account Manager I’ve wanted to
+														transition into the world of programming to better
+														understand how to manage teams and build my own
+														digital assets for web and mobile. I found that this
+														4 week web fundamentals course truly gave me all the
+														necessary skills and tools to achieve my goals.<span
+															>-Kay Solomons</span
+														>
+													</p>
+												</div>
+											</div>
+											<div class="img-space col-md-6">
+												<img
+													src="assests\images\Kay.jpg"
+													class="img-fluid"
+													alt="Maven Academy Graduate"
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="single-testimonial">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="testi-text">
+													<h4>What our students think about our courses</h4>
+												</div>
+												<div class="testi-par">
+													<p>
+														Being a certified Scrum Master & Product Owner - I
+														have a general love for process and systems. The 4
+														Week Web Fundamentals course was the perfect fit to
+														help me better equip myself for the technical roles
+														I fulfil as a team lead in web projects. This course
+														has helped take my career to new heights, and has
+														thought me some seriously valuable insights into
+														coding.<span>-Neil Lennon</span>
+													</p>
+												</div>
+											</div>
+											<div class="img-space col-md-6">
+												<img
+													src="assests\images\neil.jpg"
+													class="img-fluid"
+													alt="Maven Academy Graduate"
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--- End Testimonials Section -->
+
+			<!--- Start Contact Us Section -->
+			<div id="contact-us" class="offset">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-12 text-center">
+								<img
+									srcset="
+										assests\images\contact-banner@2x.png 1072w,
+										assests\images\contact-banner@3x.png 1608w
+									"
+									src="assests\images\contact-banner.png"
+									alt="contact us image"
+								/>
+							</div>
+							<div id="contact-head" class="col-12 text-center">
+								<h3>
+									Thank you for your enquiry.
+								</h3>
+							</div>
+							<div id="contact-main" class="col-12 text-center">
+								<p>
+									One of our friendly course consultants and we’ll get back to
+									you within 24 hours.
+								</p>
+								<div id="contact-main-2" class="col-12 text-center">
+									<p>
+										Or call us directly on
+										<a href="tel:+27 87 073 5694"> +27 (0)87 073 5694</a>
+									</p>
+									<p>
+										Need a quicker answer ? visit out Faq page :
+										<a href="https://themavenacademy.one/faq/" target="_blank"
+											>Click here</a
+										>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--- End Contact Us Section -->
 		</div>
-	</div>
+		<!--- End main content -->
 
-</div>
-<!--- End Contact Us Section -->
-</div>
-<!--- End main content -->
+		<!--- Start footer -->
+		<div w3-include-html="assests\partials\footer.html"></div>
+		<!--- End footer -->
 
-
-
-
-
-
-
-<!--- Script Source Files -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
-<script src="js\owl.carousel.min.js"></script>
-<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-<script src="js\scripts.js"></script>
-<!--- End of Script Source Files -->
-
-</body>
+		<!--- Script Source Files -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+		<script src="js\owl.carousel.min.js"></script>
+		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+		<script src="js\scripts.js"></script>
+		<script>includeHTML();</script>
+		<!--- End of Script Source Files -->
+	</body>
 </html>
-

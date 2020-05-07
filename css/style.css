@@ -63,7 +63,7 @@ body {
 	/* margin-top: 67px; */
 }
 
-#caption h1 {
+#caption > h1 {
 	width: 100%;
 	max-width: 100%;
 	font-size: 3.5rem;
@@ -74,7 +74,8 @@ body {
 	letter-spacing: normal;
 }
 
-#app > span.Typewriter__wrapper, #app > span.Typewriter__wrapper {
+#app > span.Typewriter__wrapper,
+#app > span.Typewriter__cursor {
 	color: #4a90e2;
 	font-size: 3.5rem;
 	font-weight: normal;
@@ -502,7 +503,7 @@ a.courses-link:active {
 #footer-page {
 	background-color: #36414c;
 }
-body > footer {
+body > div:nth-child(3) > footer {
 	background-color: #36414c;
 }
 .footer-headings {
@@ -566,13 +567,13 @@ body > footer {
 	image-rendering: auto;
 	margin-right: 10px;
 }
-.social-link{
+.social-link {
 	width: 34px;
-    height: 34px;
-    text-align: center;
-    background-color: #5b9de3;
-    border-radius: 5px;
-    padding: 6px;
+	height: 34px;
+	text-align: center;
+	background-color: #5b9de3;
+	border-radius: 5px;
+	padding: 6px;
 }
 
 #footer-bottom > div.col-md-7.col-lg-8 > p,
@@ -581,7 +582,6 @@ body > footer {
 	font-size: 12px;
 	margin: 0;
 }
-
 
 .copyright {
 	text-align: left;
