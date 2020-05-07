@@ -74,8 +74,14 @@ body {
 	letter-spacing: normal;
 }
 
-h1.font-light-blue {
+#app > span.Typewriter__wrapper, #app > span.Typewriter__wrapper {
 	color: #4a90e2;
+	font-size: 3.5rem;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
 }
 
 #tagline p {
