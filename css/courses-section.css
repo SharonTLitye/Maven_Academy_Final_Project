@@ -6,6 +6,23 @@
   position: sticky;
   top: 85px;
 }
+courses-card-footer{
+    margin-bottom: 50px
+}
+
+#footer-back{
+    margin-bottom: 5px;
+}
+
+#courses-body > div > div.col-md-4 > div > div:nth-child(5) > a > svg > path{
+    color: #4a90e2;
+}
+
+#courses-body > div > div.col-md-4 > div > div:nth-child(5) > a > svg > path:hover,
+#courses-body > div > div.col-md-4 > div > div:nth-child(5) > a > svg > path:active{
+    color: #4d76a5;
+    box-shadow: #4e555a;
+}
 
 /* End left card section */
 .pills-links{
@@ -105,6 +122,25 @@
   .modal-content{
       background-color: transparent !important;
   }
+  .btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    background: transparent;
+    box-shadow: none;
+}
+#box-a > div > button > svg > path{
+    color: #4a90e2;
+    height:30px;
+}
+#box-a > div > button > svg > path:hover, #box-a > div > button > svg > path:focus, #box-a > div > button > svg > path:active{
+    color: #ffffff;
+    height:30px;
+}
 
   #dwnld-btn{
     width: 11.25rem;
