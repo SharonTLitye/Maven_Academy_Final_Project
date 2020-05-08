@@ -21,7 +21,7 @@
 		<div class="row">
 		<!--Start Side Card Section-->
 			<div class="col-md-4">
-				<div class="card">
+				<div class="card sticky-course-card">
 					<h5 class="card-header text-center">
 						Become a Full Stack Web Developer
 						<br />
@@ -57,56 +57,116 @@
 				<h2 id="course-outline-header"class="text-left">
 					Course Outline
 				</h2>
-				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+				<ul class="nav nav-pills" id="pills-tab" role="tablist">
 					<li class="nav-item">
-					  <a class="nav-link active" id="pills-pre-work-tab" data-toggle="pill" href="#pills-pre-work" role="tab"
+					  <a class="pills-links nav-link active" id="pills-pre-work-tab" data-toggle="pill" href="#pills-pre-work" role="tab"
 						aria-controls="pills-pre-work" aria-selected="true">Pre-work</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" id="pills-module-1-tab" data-toggle="pill" href="#pills-module-1" role="tab"
+					  <a class="pills-links nav-link" id="pills-module-1-tab" data-toggle="pill" href="#pills-module-1" role="tab"
 						aria-controls="pills-module-1" aria-selected="false">Module 1</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" id="pills-module-2-tab" data-toggle="pill" href="#pills-module-2" role="tab"
+					  <a class="pills-links nav-link" id="pills-module-2-tab" data-toggle="pill" href="#pills-module-2" role="tab"
 						aria-controls="pills-module-2" aria-selected="false">Module 2</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" id="pills-module-3" data-toggle="pill" href="#pills-module-3" role="tab"
-						  aria-controls="pills-module-3" aria-selected="true">Module 3</a>
+						<a class="pills-links nav-link" id="pills-module-3" data-toggle="pill" href="#pills-module-3" role="tab"
+						  aria-controls="pills-module-3" aria-selected="false">Module 3</a>
 					  </li>
 					  <li class="nav-item">
-						<a class="nav-link active" id="pills-module-4" data-toggle="pill" href="#pills-module-4" role="tab"
-						  aria-controls="pills-module-4" aria-selected="true">Module 4</a>
+						<a class="pills-links nav-link" id="pills-module-4" data-toggle="pill" href="#pills-module-4" role="tab"
+						  aria-controls="pills-module-4" aria-selected="false">Module 4</a>
 					  </li>
 					  <li class="nav-item">
-						<a class="nav-link active" id="pills-master-class" data-toggle="pill" href="#pills-master-classgit" role="tab"
-						  aria-controls="pills-master-class" aria-selected="true">Master Class Electives</a>
+						<a class="pills-links nav-link" id="pills-master-class" data-toggle="pill" href="#pills-master-class" role="tab"
+						  aria-controls="pills-master-class" aria-selected="false">Master Class Electives</a>
 					  </li>
 				  </ul>
 				 
-				  <div class="tab-content pt-2 pl-1" id="pills-tabContent">
-					<div class="tab-pane fade show active" id="pills-pre-work" role="tabpanel" aria-labelledby="pills-pre-work-tab">Consequat
-					  occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat
-					  velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo
-					  anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing
-					  minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
-					  nostrud.</div>
-					<div class="tab-pane fade" id="pills-module-1" role="tabpanel" aria-labelledby="pills-module-1-tab">Ad
-					  pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt
-					  amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id
-					  incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis
-					  deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.</div>
-					<div class="tab-pane fade" id="pills-module-2" role="tabpanel" aria-labelledby="pills-module-2-tab">Est
-					  quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex.
-					  Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim
-					  exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit
-					  aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia
-					  elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum commodo sunt
-					  tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
-					  reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco sunt
-					  ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat aliqua pariatur
-					  mollit voluptate voluptate consequat non.</div>
+				  <div class="tab-content p-5" id="pills-tabContent">
+					<div class="tab-pane fade show active" id="pills-pre-work" role="tabpanel" aria-labelledby="pills-pre-work-tab">
+					<h5>Pre-work</h5>
+						You don’t have to understand everything about the MEAN stack to dive in to the introductory tutorial. Your initial challenge will be to build Google’s official “Tour of Heroes” app. Don’t worry! We’re going to explain the hard parts in great detail during your course.</div>
+					<div class="tab-pane fade" id="pills-module-1" role="tabpanel" aria-labelledby="pills-module-1-tab">
+						<h5>Module 1: Review (1 Week)</h5>
+						You’ve completed the Tour of Heroes tutorial as your pre-work; now we’ll build upon that together as a class with a “Tour of Students” app. We’ll review some core concepts in HTML, JS, and CSS to make sure they’re fresh, then jump into HTML5 advanced features, TypeScript, and SCSS to give your code superpowers.</div>
+					<div class="tab-pane fade" id="pills-module-2" role="tabpanel" aria-labelledby="pills-module-2-tab">
+						<h5>Module 2: Angular 8 (4 Weeks)</h5>
+						Get ready to jump into the deep end! Our detailed study of Angular will simulate a real-world onboarding experience, just as you may expect to experience when you’re hired and beginning your first job with Angular. You’ll look over an Angular app running in production, and dissect it piece by piece as you build it back up from the ground up as a class. You’ll make the leap from your Tour of Students app to the production-grade final solution where you’ll add yourself to the database as a Maven Academy Alumni for all the world to see!</div>
+						<div class="tab-pane fade" id="pills-module-3" role="tabpanel" aria-labelledby="pills-module-3-tab">
+							<h5>Module 3: Back End (3 Weeks)</h5>
+							Node.js is a powerful back end environment, and you’ll learn everything you need to support your Angular app with a back end server running the Express framework, MongoDB with the Mongoose ORM, and a REST API you can be proud of.</div>
+						<div class="tab-pane fade" id="pills-module-4" role="tabpanel" aria-labelledby="pills-module-4-tab">
+							<h5>Module 4: Refactor and Extend (4 Weeks)</h5>
+							Cutting your teeth in new territory, you’ll be asked to change how certain parts of the app behave, as well as adding new features on your own. This is when the going gets tough, but don’t worry! Your instructors will guide you through everything you need to prepare for a self-sufficient mindset as you prepare to graduate and enter the workforce.</div>
+						<div class="tab-pane fade" id="pills-master-class" role="tabpanel" aria-labelledby="pills-master-class">
+							<h5>Master Class Electives</h5>
+							We take you the extra mile in our standard curriculum, but for those that want to go even further beyond that—check out our Master Class Electives</div>
 				  </div>
+				<!--Start Curriculum Download Section-->
+				<div id="curri-dwnld" class="container-fluid p-5">
+					<div id="box-a" class="row">
+					<div class="col-md-12">
+						<div id="creating" class="media">
+							<img
+								class="mr-3 badge-primary"
+								src="/assests/images/bachler-icon.svg"
+								alt="Career changers"
+							/>
+							<div id="dwnld-content"class="media-body pb-2">
+							Want to find out more about what you will learn during our 12 Week Full Stack Web Developer Course. 
+							<div id="dwnld-link-section">
+								<a id="dwnld-link" href=".bd-example-modal-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Click here to Download the Curriculum</a>
+							</div> 
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+				<!-- End Curriculum Download Section-->
+				<!-- Start Modal Section -->
+				<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div id="curri-dwnld" class="container-fluid p-5">
+						<div id="box-a" class="row">
+						<div class="col-md-12">
+							<div id="creating" class="media">
+								<img
+									class="mr-3 badge-primary"
+									src="/assests/images/bachler-icon.svg"
+									alt="Career changers"
+								/>
+								<div id="dwnld-content"class="media-body pb-2">
+								Download the full syllabus by entering your email address below. We will send you a link via email to download the brochure. 	 
+								</div>
+							</div>
+						</div>
+						</div>
+						<div class="row">
+									<div class="col-md-12">
+									<form role="form">
+										<div class="row">
+											<div class="col-md-8">
+												<div class="form-group">
+													<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<button type="submit" id="dwnld-btn" class="btn btn-outline-primary text-center">
+													Submit
+												</button>
+											</div>
+										</div>
+									</form>
+								</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				</div>
+				<!-- End ModalSection  -->
 			</div>
 		<!--End Courses Outline Section-->
 		</div>
