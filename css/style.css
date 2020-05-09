@@ -13,10 +13,10 @@ body {
 	position: relative;
 }
 body {
-	overflow-x: hidden;
+	
 }
 .page-wrapper {
-	min-height: 100vh;
+	min-height:100%;
 }
 /*============= WEBSITE SECTION =============*/
 /* <!--- Start Navigation --> */
