@@ -50,6 +50,11 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover {
 	color: #4a90e2;
 }
+
+#cart-item {
+    background-color: #ffffff;
+	border-radius: 50%;
+}
 /* <!--- End Navigation --> */
 
 /* <!--- Start Landing Page Section --> */
