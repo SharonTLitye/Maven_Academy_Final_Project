@@ -119,75 +119,17 @@ $("#testimonials-carousel").owlCarousel({
 // <!--- End Testimonials Section Carousel -->
 
 // <!--- Start Cart Section -->
-let carts = document.querySelectorAll(".add-to-enquiry");
 
-let products = [
-	{
-		name: "Full Stack Web Developer",
-		tag: "fullstackwebdeveloper",
-		price: 26000,
-		inCart: 0,
-	},
-	{
-		name: "Front End Web Developer",
-		tag: "frontendwebdeveloper",
-		price: 26000,
-		inCart: 0,
-	},
-	{
-		name: "Java Spring Boot Developer",
-		tag: "javaspringbootdeveloper",
-		price: 26000,
-		inCart: 0,
-	},
-];
 
-for (let i = 0; i < carts.length; i++) {
-	carts[i].addEventListener("click", () => {
-		cartNumbers();
-	});
-}
+(function(){
+	const cartInfo = document.getElementByID('cart-item');
+	const cart = document.getElementByID('cart');
 
-function cartNumbers() {
-	let productNumbers = localStorage.getItem("cartNumbers");
+	cartInfo.addEventListener('click', function(){
+		cart.classList.toggle('show-cart');
+	})
+			
 
-	productNumbers = parseInt(productNumbers);
 
-	if (productNumbers) {
-		localStorage.setItem("cartNumbers", productNumbers + 1);
-		document.querySelector(".cart span").textContent = productNumbers + 1;
-	} else {
-		localStorage.setItem("cartNumbers", 1);
-		document.querySelector(".cart span").textContent = 1;
-	}
 
-	setItems(productNumbers);
-}
-
-function onLoadCartNumbers() {
-	let productNumbers = localStorage.getItem("cartNumbers");
-	productNumbers = parseInt(productNumbers);
-
-	if (productNumbers) {
-		setItems(productNumbers);
-		document.querySelector(".cart span").textContent = productNumbers;
-	}
-}
-
-function setItems(product) {
-	let cartItems = localStorage.getItem("productsInCart");
-	cartItems = JSON.parse(cartItems);
-	console.log("My cartItems are", cartItems);
-
-	if (cartItems != null) {
-		cartItems[product.tag].inCart += 1;
-	}
-	product.inCart = 1;
-	let CartItems = {
-		[product.tag]: product,
-	};
-
-	localStorage.setItem("productsInCart", JSON.stringify(cartItems));
-}
-onLoadCartNumbers();
-// <!--- End Cart Section -->
+})();

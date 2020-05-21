@@ -57,6 +57,17 @@ body {
 }
 /* <!--- End Navigation --> */
 
+
+/* <!--- Start floating Cart --> */
+
+/* <******** Cart Items**********> */
+#cart-item-img{
+	width: 8%;
+}
+
+/* <!--- End floating Cart --> */
+
+
 /* <!--- Start Landing Page Section --> */
 
 .masthead {

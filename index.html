@@ -9,14 +9,45 @@
 		<link rel="stylesheet" href="css\style.css" />
 		<link rel="stylesheet" href="css\owl.carousel.css" />
 		<link rel="stylesheet" href="css\owl.theme.default.css" />
-		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 	</head>
 
 	<body data-spy="scroll" data-target="#navbarResponsive">
 		<!--- Start Navigation -->
 		<div w3-include-html="assests\partials\header.html"></div>
-		
+
 		<!--- End Navigation -->
+
+		<!--- Start floating Cart -->
+
+		<div id="cart" class="cart">
+		<h5>Cart</h5>
+		<h6>Items</h6>
+
+		<!-- cart item -->
+		<div class="cart-item d-flex justify-content-between text-capitalize my-3">
+            <img src="assests\images\webdeveloper.png" class="img-fluid rounded-circle" id="cart-item-img" alt="Web Developer">
+            <div class="cart-item-text">
+              <p id="cart-item-title" class="font-weight-bold mb-0">Become a Full Stack Web Developer
+				<br />
+			   12 Week Course - In classroom
+			</p>
+              <span>R</span>
+			  <span id="cart-item-price" class="cart-item-price" class="mb-0">26000.00</span>
+			  <span>Excl Vat</span>
+            </div>
+            <a href="#" id='cart-item-remove' class="cart-item-remove">
+              <i class="fas fa-trash"></i>
+            </a>
+          </div>
+		<!-- end of  cart item -->
+
+		</div>
+
+
+		<!--- End floating Cart -->
+
+
 
 		<!--- Start main content -->
 		<div class="page-wrapper">
@@ -196,7 +227,10 @@
 												R26,000,00 Excl Vat
 												<br />
 											</p>
-											<a class="courses-link text-center" href="courses\full-stack-web-developer.html">
+											<a
+												class="courses-link text-center"
+												href="courses\full-stack-web-developer.html"
+											>
 												View course detail
 											</a>
 										</div>
@@ -230,7 +264,10 @@
 												R26,000,00 Excl Vat
 												<br />
 											</p>
-											<a class="courses-link text-center" href="courses\front-end-web-developer.html">
+											<a
+												class="courses-link text-center"
+												href="courses\front-end-web-developer.html"
+											>
 												View course detail
 											</a>
 										</div>
@@ -265,7 +302,10 @@
 												R26,000,00 Excl Vat
 												<br />
 											</p>
-											<a class="courses-link text-center" href="courses\java-spring-boot-developer.html">
+											<a
+												class="courses-link text-center"
+												href="courses\java-spring-boot-developer.html"
+											>
 												View course detail
 											</a>
 										</div>
@@ -481,7 +521,9 @@
 		<script src="js\owl.carousel.min.js"></script>
 		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 		<script src="js\scripts.js"></script>
-		<script>includeHTML();</script>
+		<script>
+			includeHTML();
+		</script>
 		<!--- End of Script Source Files -->
 	</body>
 </html>
